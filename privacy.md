@@ -4,13 +4,14 @@ permalink: /privacy.html
 
 # Privacy Policy — Jellush: Block Match & Blast
 
-**Effective date:** November 21, 2026  
+**Effective date:** November 28, 2026
+
 **Developer:** DAGT Studio  
 **Privacy contact:** [info@dagtstudio.com](mailto:info@dagtstudio.com)
 
 ## Your game on your device
 
-Jellush stores your levels, scores, stars, moves, settings and game progress on your device so you can return to your game. You can clear these records in Android's app settings. Android's backup service may restore them if you have backups enabled. You can play without creating a game account.
+Jellush stores your levels, scores, stars, moves, settings and game progress on your iPhone, iPad or Android device so you can return to your game. You can play without creating a game account. You can clear game data in Android's app settings. On iPhone or iPad, deleting the app removes its local container. Offloading the app keeps documents and data. A device backup may restore some progress, depending on your backup settings.
 
 Our general release uses Google AdMob for advertising. It does not use Firebase Analytics to send gameplay events or Firebase Crashlytics to send crash reports. The presence of test tools in earlier test builds does not mean those services are enabled for players.
 
@@ -23,9 +24,13 @@ When ads are enabled and requested, the Google Mobile Ads SDK collects and share
 - Diagnostics, such as launch time, hangs and energy use.
 - Device identifiers, such as the Android advertising ID when available and the app set ID.
 
-Jellush may show banner, interstitial and rewarded ads. Where applicable, Google's consent tools provide advertising privacy choices. You can revisit the available choices in the game's advertising privacy settings and manage your advertising ID in Android settings. Depending on your region and choices, ads may be personalized, non-personalized or limited. AdMob encrypts these transmissions in transit. Google's processing and retention are described in [Google's Privacy Policy](https://policies.google.com/privacy) and [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites).
+On iOS, Google describes its Mobile Ads SDK as potentially processing IP addresses to estimate coarse location, app or developer-scoped device identifiers, ads seen, launches, taps, video views, performance information and SDK diagnostics. Google and participating ad partners may use this information to deliver and measure ads, improve performance and prevent fraud. A rewarded ad can give you an in-game benefit when the game receives the completion event. The iOS advertising configuration disables publisher first-party ID and publisher privacy personalization. The iOS build does not request permission to access the Apple advertising identifier. The ad and consent SDKs may still make network requests and process data when their functions are used. See [Google's iOS SDK data disclosures](https://developers.google.com/admob/ios/privacy/data-disclosure).
+
+Jellush may show banner, interstitial and rewarded ads. Where applicable, Google's consent tools provide advertising privacy choices. You can revisit the available choices through the game's advertising privacy settings. Android also provides system controls for your advertising ID. On Android, depending on your region and choices, ads may be personalized, non-personalized or limited. On iOS, availability depends on the game's advertising eligibility checks and the consent SDK's response. AdMob encrypts these transmissions in transit. Google's processing and retention are described in [Google's Privacy Policy](https://policies.google.com/privacy) and [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites).
 
 ## Purchases and support
+
+The first iOS release has in-app purchases switched off. If you test an iOS beta through TestFlight, Apple handles invitations and may share usage reports, crashes and feedback you submit with the developer. [Apple explains TestFlight privacy here](https://testflight.apple.com/).
 
 Where purchases are available, the store processes the payment. Product identifiers, purchase tokens, transaction status and entitlements may be used to validate purchases and provide benefits. DAGT Studio does not receive your payment card details. If you email us, we receive the email address, message and any details you choose to send. We use them to respond to your request.
 
@@ -100,3 +105,5 @@ For privacy questions, data requests, or other inquiries:
 **DAGT Studio**  
 Email: info@dagtstudio.com  
 Website: https://dagtstudio.github.io/
+
+[Jellush player support](support.html) · [Türkçe oyuncu desteği](destek.html)
